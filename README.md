@@ -14,7 +14,7 @@ Este é um simples gerenciador de tarefas feito com HTML, CSS e JavaScript. Ele 
 
 ## Link para Acessar
 
-Você pode acessar o projeto [aqui](https://github.com/devls-io/lista-tarefas/) 
+Você pode acessar o projeto [aqui](https://devls-io.github.io/lista-tarefas/) 
 
 ## Tecnologias Usadas
 
