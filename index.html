@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+
+</head>
+<body>
+    <h1>Lista de Tarefas 📔</h1>
+
+    <div class="box">
+        <form id="formTask">
+            <input type="text"  id="taskInput" placeholder="Digite a tarefa...">
+
+            <button id="addTaskBtn" type="submit">Adicionar Tarefa</button>
+        </form>
+
+       
+
+        <ul id="tasksList">
+            <!--As tarefas serão inseridas aqui...-->
+        </ul>
+
+        <button id="orderTasks">Ordenar por nome</button>
+
+        <button id="clearTasksBtn">Limpar Lista</button>
+
+    </div>
+
+    <div class="modal" id="modal" style="display: none;">
+        <div class="modal-content" id="modalContent">
+            <div id="modal-message">Conteúdo</div>
+            <button id="modal-close">Fechar</button>
+        </div>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+
+</body>
+</html>
