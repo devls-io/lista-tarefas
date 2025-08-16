@@ -198,16 +198,6 @@ button.complete-btn:hover {
     position: relative;
 }
 
-.complete::after {
-    content: "";
-    position: absolute;
-    top: 50%; /* Coloca a linha no meio do elemento */
-    left: 0;
-    width: 100%;
-    height: 2px; /* Espessura da linha */
-    background-color: #388e3c; /* Cor da linha */
-    transform: translateY(-50%); /* Ajuste fino para centralizar */
-}
 
 button#clearTasksBtn {
     min-width: 200px;
@@ -425,8 +415,21 @@ button:hover{
    
 }
 
-    
 }
+
+@media (min-width: 768px) {
+  .complete::after {
+    content: "";
+    position: absolute;
+    top: 50%; /* Coloca a linha no meio do elemento */
+    left: 0;
+    width: 100%;
+    height: 2px; /* Espessura da linha */
+    background-color: #388e3c; /* Cor da linha */
+    transform: translateY(-50%); /* Ajuste fino para centralizar */
+  }
+}
+
 
 
 
